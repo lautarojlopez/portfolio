@@ -32,7 +32,7 @@ const Info = () => {
 					<Link to="contacto" smooth={true} className="cursor-pointer hover:text-neutral-300 font-bold text-xl"><i className="fas fa-address-card mr-3"></i> Contacto</Link>
 				</div>
 				<div className="flex items-baseline mt-5">
-					<a href='/CV.pdf' download="Lautaro Lopez.pdf" className="cursor-pointer hover:bg-neutral-300 transition-all ease-in-out duration-200 font-bold rounded bg-white text-neutral-800 p-3 text-xl"><i className="fas fa-file-download"></i> Descarga mi CV</a>
+					<a href='/Lautaro Lopez.pdf' download="Lautaro Lopez.pdf" className="cursor-pointer hover:bg-neutral-300 transition-all ease-in-out duration-200 font-bold rounded bg-white text-neutral-800 p-3 text-xl"><i className="fas fa-file-download"></i> Descarga mi CV</a>
 				</div>
 			</div>
 		</div>
