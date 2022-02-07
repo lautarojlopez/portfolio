@@ -29,7 +29,7 @@ export default function Home() {
 			try {
 				//Si el mensaje no se envia en 65 segundos, muestra un error
 				axios.defaults.timeout = 65000
-				const response = await axios.post("http://miportfolio-server.herokuapp.com/", values)
+				const response = await axios.post("https://miportfolio-server.herokuapp.com/", values)
 				if(response){
 					setCargando(false)
 					Swal.fire({
