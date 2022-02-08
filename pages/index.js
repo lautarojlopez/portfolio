@@ -39,6 +39,12 @@ export default function Home() {
 					  confirmButtonColor: '#262626',
 					  confirmButtonText: 'Aceptar'
 					})
+
+					//Limpiar formulario
+					form.values.nombre = ''
+					form.values.email = ''
+					form.values.asunto = ''
+					form.values.mensaje = ''
 				}
 				else{
 					setCargando(false)
@@ -79,7 +85,7 @@ export default function Home() {
 				<h1 className="font-bold text-6xl">Lautaro López</h1>
 				<p className="pt-5 text-2xl text-neutral-700">Junior Full Stack Developer</p>
 				<h2 id="sobre-mi" className="mt-5 border-l-8 border-neutral-800 px-3 font-bold text-4xl">Sobre Mi</h2>
-				<p className="py-5 text-lg">Soy estudiante de Ingeniería en Informática. Me considero creativo y con capacidad para resolver problemas rápidamente. Mi más grande interés es la programación, especialmente el desarrollo web y disfruto de aprender nuevas habilidades y tecnologías. Mi objetivo profesional es formar parte de un equipo que me permita seguir aprendiendo y desarrollando mis conocimientos.</p>
+				<p className="py-5 text-lg">Soy estudiante de Ingeniería en Informática. Me considero creativo y con capacidad para resolver problemas rápidamente, atento a los detalles y siempre predispuesto a colaborar. Mi más grande interés es la programación, especialmente el desarrollo web y disfruto de aprender nuevas habilidades y tecnologías. Mi objetivo profesional es formar parte de un equipo que me permita seguir aprendiendo y desarrollando mis conocimientos.</p>
 
 				<h2 id="habilidades" className="border-l-8 border-neutral-800 px-3 font-bold text-4xl">Habilidades</h2>
 				<div className="flex flex-wrap justify-center items-center my-5">
