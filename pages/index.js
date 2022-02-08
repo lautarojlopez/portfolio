@@ -54,8 +54,8 @@ export default function Home() {
 				console.log(e);
 				setCargando(false)
 				Swal.fire({
-				  title:'Error al enviar el mensaje',
-				  text: 'Por favor, intentalo nuevamente',
+				  title: e.response.data.title,
+				  text: e.response.data.msg,
 				  icon: 'error',
 				  confirmButtonColor: '#262626',
 				  confirmButtonText: 'Aceptar'
