@@ -159,7 +159,7 @@ export default function Home() {
 					</div>
 					<div className="p-3 w-full md:w-8/12 flex flex-col justify-between">
 						<h3 className="pb-3 text-3xl font-bold">Product Hunt Clon</h3>
-						<p className="py-3">Clon del sitio web &quot;Product Hunt.&quot; Desarrollado utilizando Next.js, Redux y Firebase</p>
+						<p className="py-3">Clon del sitio web &quot;Product Hunt.&quot; Desarrollado utilizando Next.js y Firebase</p>
 						<div className="flex flex-col justify-between">
 							<p><i className="fas fa-link"></i> <a href="https://product-hunt-29df2.web.app/" target="_blank" rel="noreferrer" className="font-bold">product-hunt-29df2.web.app</a></p>
 							<p><i className="fab fa-github"></i> <a href="https://github.com/lautarojlopez/product-hunt-clon" target="_blank" rel="noreferrer" className="font-bold">Repositorio</a></p>
